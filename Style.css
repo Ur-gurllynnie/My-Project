@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 77%);
+}
+
+header {
+    background-color: #6b6b6b;
+    color: hsl(0, 0%, 0%);
+    padding: 20px;
+    text-align: center;   
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;   
+
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    text-decoration: underline; /* Underline for headings */
+}
+
+p { 
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Forms */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius:   
+ 5px;
+}
+
+button {
+    background-color: #333;
+    color: hsl(0, 0%, 0%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media   
+ (max-width: 768px) {
+    section {
+        margin: 10px;
+    }
+}
+
